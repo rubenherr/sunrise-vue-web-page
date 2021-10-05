@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 150 50">
+    <path d="M75 75 a 53 53 0 0 0 53 -53" stroke="#ec0016" fill="none" stroke-linecap="round"
+          stroke-width="10">
+        <animateTransform
+            attributeName="transform" dur="2s" type="rotate"
+            values="0 75 22; -370 75 22; -360 75 22; -360 75 22"
+            keyTimes="0; 0.5; 0.9; 1" repeatCount="indefinite"
+            calcMode="spline" keySplines="0 0 .59 1; 0.42 0 1 1; 0 0 0 0;"/>
+    </path>
+    <g>
+        <path d="M22 21 a 53 53 0 0 0 106 0" stroke="#fff" fill="none" stroke-linecap="round"
+              stroke-width="10"/>
+        <path d="M75 75 a 53 53 0 0 0 53 -53" stroke="#d2d1d8" fill="none" stroke-linecap="round"
+              stroke-width="10"/>
+        <animateTransform
+            attributeName="transform" dur="2s" type="rotate"
+            values="0 75 22; 370 75 22; 360 75 22; 360 75 22"
+            keyTimes="0; 0.5; 0.9; 1" repeatCount="indefinite"
+            calcMode="spline" keySplines="0 0 .59 1; 0.42 0 1 1; 0 0 0 0;"/>
+    </g>
+</svg>

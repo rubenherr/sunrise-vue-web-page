@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+      function replaceChunksWithThemeVersion(originalSrc) {
+      var themeAssetsMap = {
+      'js/8.js': '/resource/themes/global/js/8-633880-30.js',
+      'js/28.js': '/resource/themes/global/js/28-686560-7.js',
+      'js/35.js': '/resource/themes/global/js/35-701402-6.js',		
+
+
+      'js/6.js': '/resource/themes/global/js/8-633880-30.js',
+
+
+      };
+      var chunkFileName = originalSrc.split('/').slice(-2).join('/');
+      return themeAssetsMap[chunkFileName];
+      }
+    </script>
+    <!-- <script type="text/javascript" defer src="/resource/themes/global/js/global-594978-53.js" ></script> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Soluciones de logística global &amp; Gestión de la cadena de suministro | Sunrise Cargo</title>
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <link rel="preload"	href="/resource/crblob/633836/b1f2abab4013725e088846a7a09db5a8/dbsans-regular-webfont-woff2-data.woff2" as="font" type="font/woff2"	crossorigin="anonymous"	>
+    <link rel="preload"	href="/resource/crblob/633834/33d111f1a154c5342c4bc91d43130c26/dbsans-bold-webfont-woff2-data.woff2" as="font" type="font/woff2" crossorigin="anonymous" >
+    <link rel="shortcut icon" href="/imagenes/favicon.png" >
+    <link href="/bootstrap-5.1.0-dist/css/bootstrap.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" media="screen" href="/themes/sunrisecargo/css/sunrise-594984-56.css"/> -->
+    <!-- <link rel="stylesheet" media="(min-width: 768px)" href="/themes/sunrisecargo/css/sunrise-portable-717258-1.css"/> -->
+    <!-- <link rel="stylesheet" media="(min-width: 1024px)" href="/themes/sunrisecargo/css/sunrise-landscape-717256-1.css"/>     -->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3MMG6C"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->      
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
